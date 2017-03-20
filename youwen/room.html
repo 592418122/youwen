@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>优问</title>
+		<link rel="stylesheet" href="css/new_file6.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			$(function(){
+
+				new WOW().init()
+				
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div class="section banner1">
+			<div class="nav">
+			<div class="myl"><img src="img/logo.png" class="wow flip"/></div>
+			<div class="myr">
+			<ul class="wow rubberBand">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="class.html">教学理念</a></li>
+				<li><a href="lesson.html">课程体系</a></li>
+				<li><a href="teacher.html">师资力量</a></li>
+				<li><a href="study.html">学习流程</a></li>
+				<li><a href="room.html">优问课堂</a></li>
+				<li><a href="onetoone.html">在线一对一</a></li>
+				<li class="kk"><img src="img/phone.png">电话：400-777-5029</li>
+			</ul>
+		   	</div>
+		   </div>
+		   <img src="img/class/abcdefg.png" style="width: 100%;"/>
+		</div>
+   		<div class="banner2">
+   			<div class="con">
+   				<div class="con1">
+   					<ul>
+   						<li><a>热门推荐</a></li>
+   						<li><a>优问咨询</a></li>
+   						<li><a>学生课堂</a></li>
+   						<li><a>家长课堂</a></li>
+   					</ul>
+   				</div>
+   				<div class="con3">
+   					<p>热门文章</p>
+   					<div>1</div>
+   					<div>2</div>
+   					<div>3</div>
+   				</div>
+   				<div class="con2">
+   					<div class="act1">
+   					<img src="img/class/news1.png" />
+   					<p>怎么样才能教育好孩子</p>
+   					<span>天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘天上云朵飘</span>
+   					<time>2016-12-02</time>
+   					</div>
+   					<div class="act1" style="display: none;">
+   					<img src="img/c.jpg" />
+   					<p>清华在等你</p>
+   					<span>如何考上清华如何考上清华如何考上清华如何考上清华如何考上清华如何考上清华如何考上清华如何考上清华</span>
+   					<time>2016-3-02</time>
+   					</div>
+   					<div class="act1" style="display: none;">
+   					<img src="img/a.jpg" />
+   					<p>O2O教育</p>
+   					<span>什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O什么是O2O</span>
+   					<time>2016-2-02</time>
+   					</div>
+   					<div class="act1" style="display: none;">
+   					<img src="img/b.jpg" />
+   					<p>在线培训</p>
+   					<span>在线培训在线培训在线培训在线培训在线培训在线培训在线培训在线培训在线培训在线培训在线培训在线培训</span>
+   					<time>2016-1-02</time>
+   					</div>
+   					
+   				</div>
+   				
+   			</div>
+   		</div>
+    		
+   			<div class="foot">
+    		<input type="text" placeholder="姓名"/>
+    		<input type="text" placeholder="手机号码"/>
+    		<input type="text" placeholder="电子邮箱"/>
+    		
+    		<select>
+    			<option>小学</option>
+    			<option>小升初</option>
+    			<option>初中</option>
+    			<option>中考冲刺</option>
+    			<option>高中</option>
+    			<option>高考冲刺</option>
+    		</select>
+    		<select>
+    			<option>小学</option>
+    			<option>小升初</option>
+    			<option>初中</option>
+    			<option>中考冲刺</option>
+    			<option>高中</option>
+    			<option>高考冲刺</option>
+    		</select>
+    		<select>
+    			<option>小学</option>
+    			<option>小升初</option>
+    			<option>初中</option>
+    			<option>中考冲刺</option>
+    			<option>高中</option>
+    			<option>高考冲刺</option>
+    		</select>
+    		<a href="javascript:;" class="love4">0元免费预约</a>
+    	</div>
+    	<div class="footer">
+    		<p>Copyright © 上海优问文化传播有限公司（沪ICP备16050428号）</p>
+    		<a href="">沪公安网备 310110020000908号</a>
+    	</div>
+    		</div>
+    	
+    	
+    	
+   
+			
+		
+	</body>
+	<script>
+	$(function(){
+		
+		$(".con li").click(function(){
+			
+	var num=($(".con li").index(this));
+	$($("div .act1")[num]).css("display","block").siblings("div .act1").css("display","none")
+		})
+		
+	})
+		
+	</script>
+</html>
